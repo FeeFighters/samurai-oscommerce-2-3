@@ -1,0 +1,8 @@
+This integration of OSCommerce into the Samurai payment gateway uses the Transparent Redirect method of integration.  Transparent redirect gives you full control over the payment flow and look and feel without requiring you to store payment information on your server -- the benefit of that is to remove your servers from PCI Scope.  With this integration into Samurai, all you need to achieve PCI compliance is to fill out a Self Assessment Questionnaire. 
+
+For more information on Transparent Redirect: https://samurai.feefighters.com/transparent-redirect
+For more information on PCI Compliance: https://samurai.feefighters.com/pci-compliance
+
+For more information on Samurai visit: http://samurai.feefighters.com
+For the Samurai documentation visit: https://samurai.feefighters.com/developers
+For customer support visit our chatroom: http://samurai.feefighters.com/chat
