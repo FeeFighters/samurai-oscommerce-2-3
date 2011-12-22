@@ -10,7 +10,7 @@
 
   Released under the GNU General Public License
  */
-require_once 'feefighter/lib/Samurai.php';
+require_once 'feefighter/samurai-client-php/lib/Samurai.php';
 
 class feefighter {
 
