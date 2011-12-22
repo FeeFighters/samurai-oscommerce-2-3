@@ -1,3 +1,6 @@
 [submodule "catalog/includes/modules/payment/feefighter/samurai-client-php"]
 	path = catalog/includes/modules/payment/feefighter/samurai-client-php
 	url = git@github.com:FeeFighters/samurai-client-php.git
+[submodule "catalog/includes/modules/payment/feefighters/samurai-client-php"]
+	path = catalog/includes/modules/payment/feefighters/samurai-client-php
+	url = git@github.com:FeeFighters/samurai-client-php.git
