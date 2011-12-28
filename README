@@ -1,4 +1,10 @@
-This integration of OSCommerce into the Samurai payment gateway uses the Transparent Redirect method of integration.  Transparent redirect gives you full control over the payment flow and look and feel without requiring you to store payment information on your server -- the benefit of that is to remove your servers from PCI Scope.  With this integration into Samurai, all you need to achieve PCI compliance is to fill out a Self Assessment Questionnaire. 
+To Install:
+Move the files to the appropriate directory in your oscommerce store.
+
+This integration of OSCommerce into the Samurai payment gateway uses the Transparent Redirect method of integration.  
+Transparent redirect gives you full control over the payment flow and look and feel without requiring you to 
+store payment information on your server -- the benefit of that is to remove your servers from PCI Scope. 
+ With this integration into Samurai, all you need to achieve PCI compliance is to fill out a Self Assessment Questionnaire. 
 
 For more information on Transparent Redirect: https://samurai.feefighters.com/transparent-redirect
 For more information on PCI Compliance: https://samurai.feefighters.com/pci-compliance
@@ -6,3 +12,19 @@ For more information on PCI Compliance: https://samurai.feefighters.com/pci-comp
 For more information on Samurai visit: http://samurai.feefighters.com
 For the Samurai documentation visit: https://samurai.feefighters.com/developers
 For customer support visit our chatroom: http://samurai.feefighters.com/chat
+
+When you turn on Sandbox mode in this module it rounds each order to the nearest dollar amount.  
+
+To use this plugin you require three account credentials:
+1. merchant_key
+2. merchant_password
+3. processor_token
+
+You can get those credentials at http://samurai.feefighters.com.  To sign up for a test account is free and takes 30 seconds.
+
+This plugin includes the Samurai PHP client library, which is contained within the samurai-client-php directory of the 
+payments directory.  
+
+This plugin will be uploaded to the oscommerce site, but the latest version will always be available at: 
+https://github.com/FeeFighters/samurai-oscommerce-2-3. When used from github please notice that the PHP library
+is incorporated as a git submodule so you must run git submodule init; git submodule update to pull it down.
